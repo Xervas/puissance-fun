@@ -6,21 +6,21 @@ public class Plateau
 {
 
 	//attributs
-	private int longeur;
+	private int longueur;
 	private int largeur;
 	private Pions[][] plateau;
 	//constructeurs
-	public Plateau(int largeur, int longeur)
+	public Plateau(int largeur, int longueur)
 	{
 		this.largeur = largeur;
-		this.longeur = longeur;
+		this.longueur = longueur;
 
 	}
 
 	public Plateau()
 	{
 		this.largeur = 5;
-		this.longeur = 5;
+		this.longueur = 5;
 	}
 
 	//methodes
